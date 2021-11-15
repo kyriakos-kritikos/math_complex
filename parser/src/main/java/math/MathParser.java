@@ -10,7 +10,7 @@ public class MathParser {
 	public static boolean syntaxCheck(String expression) {
 		Expression expr = new Expression(expression);
 		if (!expr.checkLexSyntax()) {
-			System.out.println("Lexical syntax of expression: " + expression + " is wrong!");
+			System.out.println("Lexical syntax of expression: " + expression + " is wrong!!!");
 			return false;
 		}
 		else if (!expr.checkSyntax()) {
