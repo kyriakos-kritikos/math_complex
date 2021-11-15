@@ -16,7 +16,7 @@ public class MathApp{
 			map.put("x",2.0);
 			map.put("y",3.0);
 			double result = MathParser.expressionEvaluation("x + y", map);
-			System.out.println("x + y = " + result);
+			System.out.println("x + y = " + result + "!!!");
 			
 		}
 		catch(Exception e) {
