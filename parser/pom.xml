@@ -1,0 +1,23 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>gr.aegean</groupId>
+    <artifactId>math</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+
+  <artifactId>math-parser</artifactId>
+  
+  <properties>
+    <mxparser-version>4.4.2</mxparser-version>
+  </properties>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.mariuszgromada.math</groupId>
+		<artifactId>MathParser.org-mXparser</artifactId>
+		<version>${mxparser-version}</version>
+  	</dependency>
+  </dependencies>
+</project>
